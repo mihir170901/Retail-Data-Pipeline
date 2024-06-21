@@ -1,7 +1,7 @@
 # Retail-Data-Pipeline
 ![Architecture_Diagram](https://github.com/mihir170901/Retail-Data-Pipeline/assets/73994476/d9077f5f-fe63-451b-bca7-12a2cb1af8e9)
 
-**Extract**
+## Extract
 Initially data in ingested from two sources i.e On-Premise SQL server and Azure Storage account.
 Data stored in On-Premise SQL server is basically a Fact table for day-to-day transactions and data stored in Storage account is a small dimension table in csv format.
 (All the data is generated synthetically using a Python script and dumped then dumped accordingly into sources to support the architecture)
