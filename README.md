@@ -4,7 +4,7 @@
 ## Extract
 Initially data in ingested from two sources i.e On-Premise SQL server and Azure Storage account.
 Data stored in On-Premise SQL server is basically a Fact table for day-to-day transactions and data stored in Storage account is a small dimension table in csv format.
-(All the data is generated synthetically using a Python script and dumped then dumped accordingly into sources to support the architecture)
+(All the data is generated synthetically using a Python script and then dumped accordingly into sources to support the architecture)
 Azure Data Factory is used to ingest data from these two sources and store it into a Azure Data Lake Storage(ADLS) in Parquet Format.
 
 ## Transform
